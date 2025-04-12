@@ -1,0 +1,35 @@
+# VS Code settings
+.vscode/
+
+# IDE-specific
+.idea/
+
+# .NET ignores
+bin/
+obj/
+.vs/
+*.user
+#  "ConnectionStrings": {
+#    "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=RescueCallsDb;Trusted_Connection=True;MultipleActiveResultSets=true"
+#  }
+appsettings.json
+appsettings.Development.json
+
+# React ignores
+node_modules/
+build/
+.env
+
+# SQL DB files
+*.mdf
+*.ldf
+
+# Ignore migrations folder
+Migrations/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files (e.g., Thumbs.db, DS_Store)
+Thumbs.db
+.DS_Store

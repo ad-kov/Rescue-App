@@ -1,0 +1,42 @@
+.create-request {
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    margin: 20px auto;
+    font-family: 'Arial', sans-serif;
+}
+
+.create-request h2 {
+    color: #333;
+    text-align: center;
+}
+
+.create-request form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.create-request .input-field {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.create-request .submit-button {
+    padding: 10px;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.create-request .submit-button:hover {
+    background-color: #1976d2;
+}

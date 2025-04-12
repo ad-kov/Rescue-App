@@ -1,0 +1,7 @@
+@RescueCall_HostAddress = REACT_APP_BACKEND_URL
+
+
+GET {{RescueCall_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
