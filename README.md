@@ -45,15 +45,15 @@ The application will run on:
 If you're unable to run the `.bat` file or would prefer to run the app manually, you can follow these steps:
 
 ### in CMD 
-cd RescueCall
-dotnet restore
-dotnet tool install --global dotnet-ef  (if not installed already)
-dotnet ef migrations add InitialCreate  (to create the initial migration)
-dotnet ef database update  (to apply the migrations and create the database)
-cd ../rescue-frontend
-npm install
-cd ../RescueCall
-dotnet run
-cd ../rescue-frontend
-npm start
-Open the application in a browser: http://localhost:3000
+1. `cd RescueCall`
+2. `dotnet restore`
+3. `dotnet tool install --global dotnet-ef` (if not installed already)
+4. `dotnet ef migrations add InitialCreate` (to create the initial migration)
+5. `dotnet ef database update` (to apply the migrations and create the database)
+6. `cd ../rescue-frontend`
+7. `npm install`
+8. `cd ../RescueCall`
+9. `dotnet run`
+10. `cd ../rescue-frontend`
+11. `npm start`
+Open the application in a browser: [http://localhost:3000](http://localhost:3000)
